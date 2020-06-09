@@ -8,5 +8,6 @@ int main()
       out.get() << typeid(out).name();
       out.get() << "lambda with variable";
   } ();
+  std::cout << "done" << std::endl;
   return 0;
 }
